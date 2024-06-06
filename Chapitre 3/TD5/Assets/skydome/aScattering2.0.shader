@@ -111,7 +111,7 @@ return OUT;
 }
 
 float4 frag (vertex_output IN): COLOR {
-	float4 color:COLOR;
+	float4 color;
 	float4 noise1=tex2D(noisetex,IN.uvcoords1.xy/IN.orgposz);
 	float4 noise2=tex2D(noisetex,IN.uvcoords2.xy/IN.orgposz);
 	float4 stars=tex2D(starTexture,IN.starUV.xy);

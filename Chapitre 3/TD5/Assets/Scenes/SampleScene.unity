@@ -553,20 +553,24 @@ PrefabInstance:
       value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: cc3117c6934d64c398696c481729b241, type: 3}
+      propertyPath: Turbidity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: cc3117c6934d64c398696c481729b241, type: 3}
       propertyPath: JULIANDATE
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: cc3117c6934d64c398696c481729b241, type: 3}
       propertyPath: cloudHeight1
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: cc3117c6934d64c398696c481729b241, type: 3}
-      propertyPath: cloudHeight2
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: cc3117c6934d64c398696c481729b241, type: 3}
+      propertyPath: cloudHeight2
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: cc3117c6934d64c398696c481729b241, type: 3}
       propertyPath: TimeSpeedFactor
-      value: 1
+      value: 0.005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
